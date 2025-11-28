@@ -1,0 +1,30 @@
+# nix-shell -p ssh-to-age --run 'ssh-keyscan example.com | ssh-to-age'
+# nix-shell -p ssh-to-age --run 'cat /etc/ssh/ssh_host_ed25519_key.pub | ssh-to-age'
+keys:
+  # Users
+  - &jinx age1322uu60fpjzgjktx7uaqmafy5tq99j7d3qkrvhm0un4dqtlmly7s9cn0ft
+  - &housing age1jq3c2zcfwrl8pa9ng72jv0gqtd25u338vmqmxp4e67ma69xhaqssezzu0e
+  # Systems
+  - &wpha01 age1u7tfy2y7hnlhuf3fs35aq5up3w2pc73z6ylwte97kfqmdy808ecs9aelj5
+  - &rack01 age14n5q9u87288fgkmsupryj57j4yuqcnzr8v08x80yzcke8m6w8a3qdgm69g
+creation_rules:
+  - path_regex: wpha01/files/.*
+    key_groups:
+      - age:
+          - *jinx
+          - *wpha01
+  - path_regex: rack01/files/.*
+    key_groups:
+      - age:
+          - *jinx
+          - *rack01
+  - path_regex: ^secrets/.*
+    key_groups:
+      - age:
+          - *jinx
+          - *wpha01
+          - *rack01
+  - path_regex: ^mock/.*
+    key_groups:
+      - age:
+          - *jinx
