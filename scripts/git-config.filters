@@ -1,0 +1,6 @@
+[filter "crypt"]
+	required = true
+	smudge = scripts/git-sops.sh smudge '%f'
+	clean = scripts/git-sops.sh clean '%f'
+[diff "crypt"]
+	textconv = ./scripts/git-sops.sh clean '%f'
