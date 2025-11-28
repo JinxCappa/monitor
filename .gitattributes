@@ -1,0 +1,2 @@
+**/files/crypt/* filter=crypt diff=crypt
+secrets/* filter=crypt diff=crypt
