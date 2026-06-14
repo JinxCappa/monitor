@@ -1,0 +1,47 @@
+systems/x86_64-linux/wpha01/default.nix
+  s_10ce20f92fd7c2::t_96c479cc117fd2 24
+modules/nixos/profiles/default.nix
+  s_10ce20f92fd7c2::t_5e5fc6da855ef2 19-39,369-378
+  s_10ce20f92fd7c2::t_0eb9864d276b5c 52-320,356-368
+  d4cca088618d6fd7 347-348
+secrets/crypt.toml
+  h_519d485e793b50 1-18
+flake.nix
+  h_519d485e793b50 7-15,57
+homes/x86_64-linux/nixos@default/default.nix
+  h_519d485e793b50 40-43
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.6",
+  "base_commit_sha": "739ff98ceda24110ae04b65e8545fa598a7bb785",
+  "prompts": {
+    "d4cca088618d6fd7": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_2f4851523ffeht5CIK0fj3C9Hp",
+        "model": "anthropic/claude-opus-4-6"
+      },
+      "human_author": "JinxCappa <git.jinxcapp.dev>",
+      "total_additions": 115,
+      "total_deletions": 93,
+      "accepted_lines": 2,
+      "overriden_lines": 0
+    }
+  },
+  "humans": {
+    "h_519d485e793b50": {
+      "author": "JinxCappa <git.jinxcapp.dev>"
+    }
+  },
+  "sessions": {
+    "s_10ce20f92fd7c2": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019ec6d8-8771-74b2-b306-ec0bcc8379bd",
+        "model": "gpt-5.5"
+      },
+      "human_author": "JinxCappa <git.jinxcapp.dev>"
+    }
+  }
+}
