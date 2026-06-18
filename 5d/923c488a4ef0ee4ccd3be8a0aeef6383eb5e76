@@ -1,0 +1,82 @@
+homes/x86_64-linux/nixos@default/default.nix
+  h_519d485e793b50 40-43
+systems/x86_64-linux/wpha01/default.nix
+  s_d9342e77426ba7::t_c7130b70be5902 46,51-53,55
+  h_519d485e793b50 32,42-43,45,49-50,56-61,63-70,73-74,76-88
+  s_4640b0db0959a6::t_72d689dd29155d 75
+  s_e87c5981f5795b::t_4cd7003e28111c 62
+  s_d9342e77426ba7::t_0a7e7a9805c38d 48
+  s_d9342e77426ba7::t_ebe58dfd7ba992 44
+  s_10ce20f92fd7c2::t_96c479cc117fd2 24
+  s_d9342e77426ba7::t_0b63accf71a7c9 33,47,54
+modules/nixos/profiles/default.nix
+  s_10ce20f92fd7c2::t_0eb9864d276b5c 52-278,300-341,377-389
+  s_d9342e77426ba7::t_e1060e652833a4 281,287
+  d4cca088618d6fd7 368-369
+  s_10ce20f92fd7c2::t_5e5fc6da855ef2 19-39,390-399
+  s_d9342e77426ba7::t_60d783a8221a8d 279-280,282-286,288-299
+systems/x86_64-linux/wpha01/files/sops-nix.yaml
+  h_519d485e793b50 1-2,4-29
+secrets/crypt.toml
+  h_519d485e793b50 1-18
+flake.nix
+  h_519d485e793b50 7-15,57
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.8",
+  "base_commit_sha": "5d923c488a4ef0ee4ccd3be8a0aeef6383eb5e76",
+  "prompts": {
+    "d4cca088618d6fd7": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_2f4851523ffeht5CIK0fj3C9Hp",
+        "model": "anthropic/claude-opus-4-6"
+      },
+      "human_author": "JinxCappa <git.jinxcapp.dev>",
+      "total_additions": 115,
+      "total_deletions": 93,
+      "accepted_lines": 2,
+      "overriden_lines": 0
+    }
+  },
+  "humans": {
+    "h_519d485e793b50": {
+      "author": "JinxCappa <git.jinxcapp.dev>"
+    }
+  },
+  "sessions": {
+    "s_10ce20f92fd7c2": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019ec6d8-8771-74b2-b306-ec0bcc8379bd",
+        "model": "gpt-5.5"
+      },
+      "human_author": "JinxCappa <git.jinxcapp.dev>"
+    },
+    "s_4640b0db0959a6": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019edc4a-7643-7b71-90ac-9e5ac82830d3",
+        "model": "gpt-5.5"
+      },
+      "human_author": null
+    },
+    "s_d9342e77426ba7": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019ec735-2420-7490-8d2a-f9db02ad650d",
+        "model": "gpt-5.5"
+      },
+      "human_author": null
+    },
+    "s_e87c5981f5795b": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019edae5-1f0c-7a40-ac4f-ff2b4e22af43",
+        "model": "gpt-5.5"
+      },
+      "human_author": null
+    }
+  }
+}
