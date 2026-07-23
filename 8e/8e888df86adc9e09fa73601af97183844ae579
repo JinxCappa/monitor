@@ -1,0 +1,107 @@
+modules/nixos/profiles/default.nix
+  s_d9342e77426ba7::t_5ff54fb3d5a3a3 1-15,43-47,362,365-371
+  s_10ce20f92fd7c2::t_5e5fc6da855ef2 19-39,385-394
+  s_10ce20f92fd7c2::t_1b78f8914fc770 16-18
+  s_d9342e77426ba7::t_60d783a8221a8d 274-275,277-281,283-294
+  s_10ce20f92fd7c2::t_0eb9864d276b5c 51-273,295-361,372-384,395
+  s_10ce20f92fd7c2::t_54e36357590c26 40-42,48-50
+  s_d9342e77426ba7::t_e1060e652833a4 276,282
+  s_10ce20f92fd7c2::t_2998e39c72d79d 396-397
+  d4cca088618d6fd7 363-364
+flake.nix
+  s_8ccd97d3a16154::t_47dec506b196a8 1-6,15-55,57-77
+  h_519d485e793b50 7-14,56
+homes/x86_64-linux/nixos@default/default.nix
+  h_519d485e793b50 40-43
+flake.lock
+  s_8ccd97d3a16154::t_4b61ff5a119677 1-364
+systems/x86_64-linux/wpha01/files/sops-nix.yaml
+  h_519d485e793b50 1-2,4-29
+systems/x86_64-linux/wpha01/default.nix
+  s_10ce20f92fd7c2::t_96c479cc117fd2 24
+  s_e87c5981f5795b::t_4cd7003e28111c 62
+  s_d9342e77426ba7::t_1aa8f79eef18ac 14-16
+  s_d9342e77426ba7::t_c7130b70be5902 17,46,51-53,55
+  h_519d485e793b50 32,42-43,45,49-50,56-61,64-71,76-77,79-91
+  s_d9342e77426ba7::t_0b63accf71a7c9 33,47,54
+  s_b2e375b32ae7b3::t_81913ccac681d5 63
+  s_4640b0db0959a6::t_72d689dd29155d 78
+  s_b2e375b32ae7b3::t_9a820dac5f785c 74-75
+  s_b2e375b32ae7b3::t_1ade411941b471 1-13,18-23,25-31,34-41,72-73,92
+  s_d9342e77426ba7::t_ebe58dfd7ba992 44
+  s_d9342e77426ba7::t_0a7e7a9805c38d 48
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "8e8e888df86adc9e09fa73601af97183844ae579",
+  "prompts": {
+    "d4cca088618d6fd7": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_2f4851523ffeht5CIK0fj3C9Hp",
+        "model": "anthropic/claude-opus-4-6"
+      },
+      "human_author": "JinxCappa <git.jinxcapp.dev>",
+      "total_additions": 115,
+      "total_deletions": 93,
+      "accepted_lines": 2,
+      "overriden_lines": 0
+    }
+  },
+  "humans": {
+    "h_519d485e793b50": {
+      "author": "JinxCappa <git.jinxcapp.dev>"
+    }
+  },
+  "sessions": {
+    "s_10ce20f92fd7c2": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019ec6d8-8771-74b2-b306-ec0bcc8379bd",
+        "model": "gpt-5.5"
+      },
+      "human_author": "JinxCappa <git.jinxcapp.dev>"
+    },
+    "s_4640b0db0959a6": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019edc4a-7643-7b71-90ac-9e5ac82830d3",
+        "model": "gpt-5.5"
+      },
+      "human_author": null
+    },
+    "s_8ccd97d3a16154": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019f234c-c2c9-73f3-a9ab-cf0eed6267e8",
+        "model": "gpt-5.5"
+      },
+      "human_author": "JinxCappa <git.jinxcapp.dev>"
+    },
+    "s_b2e375b32ae7b3": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019ee5f2-3a13-7421-bfab-7c9d3cf0a7b7",
+        "model": "gpt-5.5"
+      },
+      "human_author": null
+    },
+    "s_d9342e77426ba7": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019ec735-2420-7490-8d2a-f9db02ad650d",
+        "model": "gpt-5.5"
+      },
+      "human_author": null
+    },
+    "s_e87c5981f5795b": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019edae5-1f0c-7a40-ac4f-ff2b4e22af43",
+        "model": "gpt-5.5"
+      },
+      "human_author": null
+    }
+  }
+}
