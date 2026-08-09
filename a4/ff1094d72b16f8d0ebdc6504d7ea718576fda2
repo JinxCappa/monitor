@@ -1,0 +1,163 @@
+systems/x86_64-linux/rack01/default.nix
+  h_519d485e793b50 1-90
+systems/x86_64-linux/wpha01/default.nix
+  h_519d485e793b50 8,11,15,18,42,45-47,56-57,59,62-67,71-72,80-85,88-95,100-115
+  s_d9342e77426ba7::t_1aa8f79eef18ac 27-29
+  s_b2e375b32ae7b3::t_81913ccac681d5 87
+  s_b2e375b32ae7b3::t_9a820dac5f785c 98-99
+  s_b2e375b32ae7b3::t_1ade411941b471 1-7,22-26,31-36,38-41,43-44,48-55,96-97,116
+  s_d9342e77426ba7::t_c7130b70be5902 30,60,68-70,73
+  s_a92dce76bcea2e::t_4f95b264669dde 9-10,12-14,16-17,19-21,58,61,74-79
+  s_e87c5981f5795b::t_4cd7003e28111c 86
+  s_10ce20f92fd7c2::t_96c479cc117fd2 37
+scripts/git-config.filters
+  h_519d485e793b50 1-6
+systems/x86_64-linux/wpha01/hardware-configuration.nix
+  h_519d485e793b50 1-25
+homes/x86_64-linux/nixos@default/default.nix
+  h_519d485e793b50 1-62
+flake.lock
+  s_8ccd97d3a16154::t_4b61ff5a119677 1-382
+scripts/git-sops.sh
+  s_e91ccaf612aca6::t_784c33763fb1b7 179-183
+  h_519d485e793b50 1-138,140-156,165,174-175,184-500
+  s_e91ccaf612aca6::t_92677de9673837 161,163,169-170
+  s_e91ccaf612aca6::t_cc745a69928f1d 139,157-160,162,164,166-168,171-173,176-178
+.gitignore
+  h_519d485e793b50 1-3
+systems/x86_64-linux/wpha01/files/secrets.yaml
+  h_519d485e793b50 1-30
+systems/x86_64-linux/wpha01/disko.nix
+  h_519d485e793b50 1-37
+systems/x86_64-linux/rack01/disko.nix
+  h_519d485e793b50 1-37
+systems/x86_64-linux/files/hardware/firebat-ak2/hardware-configuration.nix
+  h_519d485e793b50 1-26
+.sops.yaml
+  h_519d485e793b50 1-30
+scripts/bootstrap-git.sh
+  h_519d485e793b50 1-21,27-31
+  s_e91ccaf612aca6::t_cc745a69928f1d 22-26,32
+flake.nix
+  h_519d485e793b50 7-14,56
+  s_8ccd97d3a16154::t_47dec506b196a8 1-6,15-55,57-77
+systems/x86_64-linux/rack01/files/secrets.yaml
+  h_519d485e793b50 1-29
+systems/x86_64-linux/files/common/template/default.nix
+  h_519d485e793b50 1-32
+systems/x86_64-linux/files/common/template/disko.nix
+  h_519d485e793b50 1-37
+modules/nixos/profiles/default.nix
+  s_69e473a8c24aaa::t_617fdd5bbda369 232,236-251
+  s_d9342e77426ba7::t_60d783a8221a8d 314-315,317-321,323-334
+  s_10ce20f92fd7c2::t_2998e39c72d79d 436-437
+  s_69e473a8c24aaa::t_9147ecfbe3bc8a 203-209
+  s_69e473a8c24aaa::t_09657d58a701ac 182-184,186-189,191-202
+  s_d9342e77426ba7::t_5ff54fb3d5a3a3 1-15,43-47,402,405-411
+  s_d9342e77426ba7::t_e1060e652833a4 316,322
+  s_69e473a8c24aaa::t_627c1f377e874c 185
+  d4cca088618d6fd7 403-404
+  s_10ce20f92fd7c2::t_1b78f8914fc770 16-18
+  s_10ce20f92fd7c2::t_54e36357590c26 40-42,48-50
+  s_69e473a8c24aaa::t_8c87224e9dd895 190
+  s_10ce20f92fd7c2::t_5e5fc6da855ef2 19-39,425-434
+  s_10ce20f92fd7c2::t_0eb9864d276b5c 51-181,210-231,233-235,252-313,335-401,412-424,435
+systems/x86_64-linux/files/common/template/files/secrets.yaml
+  h_519d485e793b50 1-3
+.gitattributes
+  h_519d485e793b50 1-2
+systems/x86_64-linux/rack01/hardware-configuration.nix
+  h_519d485e793b50 1-25
+secrets/crypt.toml
+  h_519d485e793b50 1-22
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.20",
+  "base_commit_sha": "a4ff1094d72b16f8d0ebdc6504d7ea718576fda2",
+  "prompts": {
+    "d4cca088618d6fd7": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_2f4851523ffeht5CIK0fj3C9Hp",
+        "model": "anthropic/claude-opus-4-6"
+      },
+      "human_author": "JinxCappa <git.jinxcapp.dev>",
+      "total_additions": 115,
+      "total_deletions": 93,
+      "accepted_lines": 2,
+      "overriden_lines": 0
+    }
+  },
+  "humans": {
+    "h_519d485e793b50": {
+      "author": "JinxCappa <git.jinxcapp.dev>"
+    }
+  },
+  "sessions": {
+    "s_10ce20f92fd7c2": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019ec6d8-8771-74b2-b306-ec0bcc8379bd",
+        "model": "gpt-5.5"
+      },
+      "human_author": "JinxCappa <git.jinxcapp.dev>"
+    },
+    "s_69e473a8c24aaa": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019fd90f-c7f3-7493-a7ea-afde4937e16a",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": null
+    },
+    "s_8ccd97d3a16154": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019f234c-c2c9-73f3-a9ab-cf0eed6267e8",
+        "model": "gpt-5.5"
+      },
+      "human_author": "JinxCappa <git.jinxcapp.dev>"
+    },
+    "s_a92dce76bcea2e": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019fd87b-98ba-72b2-8a08-ef3530acc8d8",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": null
+    },
+    "s_b2e375b32ae7b3": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019ee5f2-3a13-7421-bfab-7c9d3cf0a7b7",
+        "model": "gpt-5.5"
+      },
+      "human_author": null
+    },
+    "s_d9342e77426ba7": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019ec735-2420-7490-8d2a-f9db02ad650d",
+        "model": "gpt-5.5"
+      },
+      "human_author": null
+    },
+    "s_e87c5981f5795b": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019edae5-1f0c-7a40-ac4f-ff2b4e22af43",
+        "model": "gpt-5.5"
+      },
+      "human_author": null
+    },
+    "s_e91ccaf612aca6": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019fdd28-09a3-7101-9e6f-a281ca4778e9",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": null
+    }
+  }
+}
