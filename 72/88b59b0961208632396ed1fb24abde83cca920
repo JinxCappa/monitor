@@ -1,0 +1,30 @@
+systems/x86_64-linux/rack01/files/secrets.yaml
+  h_519d485e793b50 1-2,4-5,10-14,19-23,25-27
+secrets/crypt.toml
+  h_519d485e793b50 1-22
+.sops.yaml
+  h_519d485e793b50 9
+systems/x86_64-linux/rack01/hardware-configuration.nix
+  s_2340e3a5b937f3::t_e06bd74db6b056 1-18
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "7288b59b0961208632396ed1fb24abde83cca920",
+  "prompts": {},
+  "humans": {
+    "h_519d485e793b50": {
+      "author": "JinxCappa <git.jinxcapp.dev>"
+    }
+  },
+  "sessions": {
+    "s_2340e3a5b937f3": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a00031-3f10-7a01-825f-b52408569b40",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "JinxCappa <git.jinxcapp.dev>"
+    }
+  }
+}
